@@ -40,7 +40,9 @@ def image_processor(clientID):
                     #rospy.loginfo(res)
 
                     #cv2.line(img, (int(x_medium), 0), (int(x_medium), resolution[0]), (0, 0, 255), 1)
-                    rate.sleep()
+                else:
+                    pub.publish(999999999.0)
+                rate.sleep()
 
                 #cv2.imshow('image', img)
                 #if cv2.waitKey(1) & 0xFF == ord('q'):
