@@ -1,4 +1,0 @@
-<launch>
-	<node name="imageProcessing" pkg="dd_robot_image_processing" type="imageProcessing.py" />
-	<node name="drive_DDrobot"   pkg="dd_robot_image_processing" type="drive_DDrobot.py"   />
-</launch>
