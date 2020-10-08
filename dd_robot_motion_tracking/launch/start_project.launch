@@ -1,0 +1,4 @@
+<launch>
+	<node name="track_motion"    pkg="dd_robot_motion_tracking" type="detect_motion.py" />
+	<node name="drive_DDrobot"   pkg="dd_robot_motion_tracking" type="drive_DDrobot.py" />
+</launch>
